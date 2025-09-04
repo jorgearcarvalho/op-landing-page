@@ -1,0 +1,53 @@
+a:link, :visited {
+    text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.section {
+    display: flex;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text, 
+.right-links {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+ul {
+    list-style-type: none;
+}
