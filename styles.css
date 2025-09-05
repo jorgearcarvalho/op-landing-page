@@ -1,4 +1,4 @@
-a:link, :visited {
+a:link, a:visited {
     text-decoration: none;
     font-size: 18px;
     color: #F9FAF8;
@@ -8,32 +8,128 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.section {
+.header  {
+    background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 200px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 200px;
+    gap: 10px;
 }
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    height: 450px;
 }
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 .main-text {
+    align-self: flex-start;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-left: 200px;
 }
-
-.secondary-text, 
-.right-links {
+.secondary-text {
+    align-self: flex-start;
     font-size: 18px;
     color: #F9FAF8;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+.hero .button {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    width: 85%;
+    height: 250px;
+    margin-right: 200px;
+}
+.hero .section {
+    background-color: inherit;
 }
 
-.quote {
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.random-info h2 {
+    margin-top: 35px;
+}
+.random-info .section {
+    margin-top: 0px;
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    gap: 8px;
+}
+.blue-box {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.quote-section .text {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
@@ -42,12 +138,17 @@ body {
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    height: 80px;
 }
 
 button {
     background-color: #3882F6;
-}
-
-ul {
-    list-style-type: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 15%;
+    border-radius: 5px;
 }
