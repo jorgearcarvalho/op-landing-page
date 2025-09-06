@@ -6,6 +6,7 @@ a:link, a:visited {
 
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 .header  {
@@ -92,8 +93,8 @@ ul {
     margin-bottom: 55px;
     display: flex;
     flex-direction: row;
-    gap: 70px;
-    width: 100%;
+    gap: 100px;
+    width: 1000px;
 }
 .container {
     display: flex;
@@ -112,9 +113,26 @@ ul {
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
+}
+.citation {
+    align-self: flex-end;
+    width: 45%;
+    font-size: 30px;
+}
+.quote-section .text {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    width: 57%;
 }
 
 .action {
@@ -123,17 +141,18 @@ ul {
     height: 40%;
     width: 70%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    align-content: space-around;
+    justify-content: space-between;
+    border-radius: 10px;
 }
-
-.quote-section .text {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 300;
+.action .text {
+    margin-left: 100px;
+}
+.action .button {
+    border-color: white;
+    border-style: solid;
+    width: 12%;
+    margin-right: 100px;
 }
 
 .footer {
@@ -150,5 +169,6 @@ button {
     color: #F9FAF8;
     font-weight: bold;
     width: 15%;
+    height: 30px;
     border-radius: 5px;
 }
